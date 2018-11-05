@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.zxn.onmeasure.ChatMsgLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        app:maxMsgWidth="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是有那么一段遇见，然而相见争如不见，他能从当年的穷山恶水中走出，从来不是因为那年秋黄金马车中伸出来的那双洁白的手。
+过往也是一枚在秋风中翻飞的落叶，一面起伏着古怪的爱和占有，一面隐藏着欺骗、背叛、愤怒和暴戾。在风中撞碎了边边角角，拼凑不出完整的真相" />
+    </com.zxn.onmeasure.ChatMsgLayout>
+
+
+</RelativeLayout>
